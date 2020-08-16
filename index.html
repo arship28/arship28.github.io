@@ -25,9 +25,10 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <a class="navbar-brand" href="index.html"> Arshi</a>
                     <ul class="navbar-nav text-uppercase ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#work">Work Experience</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Projects Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Projects Portfolio</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Skills</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#publications">Publications</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About ME</a></li>
@@ -119,6 +120,105 @@
             </div>
         </section>
 
+
+         <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Project Portfolio</h2>
+                    <h3 class="section-subheading text-muted">Click on the pictures to view the details</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                        <br><p>View Project Details<p>
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="img/portfolio/nlp.jpg" alt="Text Summarization" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Text Summarization</div>
+                                <div class="portfolio-caption-subheading text-muted">Pattern Recognition and Neural Network<br><br></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"> <br><p>View Project Details<p></div>
+                                </div>
+                                <img class="img-fluid" src="img/portfolio/kothaye_thumb.png" alt="Kothaye App" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Kothaye</div>
+                                <div class="portfolio-caption-subheading text-muted">Capstone Design Project- Android Application</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"> <br><p>View Project Details<p></div>
+                                </div>
+                                <img class="img-fluid" src="img/portfolio/th_boimela.png" alt="Boimela App" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Boimela App</div>
+                                <div class="portfolio-caption-subheading text-muted">Software Engineering<br><br></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"> <br><p>View Project Details<p></div>
+                                </div>
+                                <img class="img-fluid" src="img/portfolio/th_mediment.png" alt="Mediment" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Mediment</div>
+                                <div class="portfolio-caption-subheading text-muted">Internet and Web Technology <br> <br> <br></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"> <br><p>View Project Details<p></div>
+                                </div>
+                                <img class="img-fluid" src="img/portfolio/DM.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Analysis of soil and <br>Geotechnical parameters</div>
+                                <div class="portfolio-caption-subheading text-muted">Data Mining, Neural Network <br><br></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"> <br><p>View Project Details<p></div>
+                                </div>
+                                <img class="img-fluid" src="img/portfolio/DM.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Soil Analysis and Unconfined Compression Test Study</div>
+                                <div class="portfolio-caption-subheading text-muted">Data Mining, Neural Network</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
                 <!-- About ME-->
         <section class="page-section" id="about">
             <div class="container">
@@ -166,6 +266,182 @@
                 </div>
             </div>
         </footer>
+
+
+         <!-- Portfolio Modals-->
+        <!-- Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Text Summarization</h2>
+                                    
+                                    <img class="img-fluid d-block mx-auto" src="" alt="" />
+                                    <p>An AI-based project which uses denoising autoencoder, BART, to carry out abstractive text summarization on the dataset of COVID-19, using ROUGE scores as an evaluation metric.</p>
+                                    <ul class="list-inline">
+                                        <li>Date: 2020</li>
+                                        <li>Course: Pattern Recognition and Neural Network</li>
+                                        <li class="text-muted"><i class="fa fa-tag"></i> </li>
+                                    </ul>
+                                    <a href="https://github.com/sayeedk06/CSE465-project-Covid19Summary" target="_blank">
+                                     <button class="btn btn-primary" type="button">
+                                        Visit GitHub Repository 
+                                    </button>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Kothaye</h2>
+                                    <p class="item-intro text-muted">Android App</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
+                                    <p>"Kothaye" is an Android Application that can be used in order to find freelancers, seek jobs, and also map integration in order to get recommendations of places near the user/client.</p>
+                                    <ul class="list-inline">
+                                        <li>Date: 2020</li>
+                                        <li>Course: Capstone Design Project</li>
+                                        <li class="text-muted"><i class="fa fa-tag"></i> Java, Firebase, Android, Google Maps API</li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">BoiMela</h2>
+                                    <p class="item-intro text-muted">Web Application</p>
+                                    <img class="img-fluid d-block mx-auto" src=" " alt="" />
+                                    <p>"Boimela" is a web application which is a virtual walk-through the book fair, providing information about newly released books, mapped guide to navigate around the fair, and register as stall owners or users.</p>
+                                    <ul class="list-inline">
+                                        <li>Date: 2019</li>
+                                        <li>Course: Software Engineering </li>
+                                        <li class="text-muted"><i class="fa fa-tag"></i> Python, Django, HTML, CSS, BootStrap, Unit Test, Scrum, Agile</li>
+                                    </ul>
+                                      <a href="https://github.com/nafis25/TheBoiMelaProject" target="_blank">
+                                     <button class="btn btn-primary" type="button">
+                                        Visit GitHub Repository 
+                                    </button>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Medico</h2>
+                                    <p class="item-intro text-muted">Web Application</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
+                                    <p>A web application named "Mediment" which is used to find doctors, create appointments, providing a one step doctor search website.</p>
+                                    <ul class="list-inline">
+                                        <li>Date: 2019-2020</li>
+                                        <li>Course: Internet and Web Technology</li>
+                                        <li class="text-muted"><i class="fa fa-tag"></i> PHP, MySQL, HTML, CSS, BootStrap, Maps API</li>
+                                    </ul>
+                                      <a href="https://github.com/arship28/Mediment" target="_blank">
+                                     <button class="btn btn-primary" type="button">
+                                        Visit GitHub Repository 
+                                    </button>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details-->
+                                    <h2 class="text-uppercase">Analysis of soil and Geo-technical parameters using Data Mining Techniques</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/05-full.jpg" alt="" />
+                                    <p>Integrated machine learning approach on the analysis of soil and Geo-technical parameters. Paper accepted for the 2020 IEEE 10th International Conference on Intelligent Systems. </p>
+                                    <ul class="list-inline">
+                                        <li>Date: 2019- 2020</li>
+                                        <li>Course: Data Mining</li>
+                                       <li class="text-muted"><i class="fa fa-tag"></i>Artifical Neural Network, Generalized Regression Neural Network (GRNN), Support Vector Regression, Linear Regression</li>
+                                    </ul>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details-->
+                                    <h2 class="text-uppercase">Soil Analysis and Unconfined Compression Test Study using Data Mining Techniques</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
+                                    <p>Application of machine learning and data mining techniques for the prediction of unconfined compression test of soil analysis. Research Paper accepted for the ICCCI 2020 conference, Springer, and to be published in the CCIS Volume of the Proceedings within the Springer Series Communications in Computer and Information Science.</p>
+                                    <ul class="list-inline">
+                                        <li>Date: 2019-2020</li>
+                                        <li>Course: Data Mining</li>
+                                        <li class="text-muted"><i class="fa fa-tag"></i>Neural Network, Generalized Regression Neural Network (GRNN)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
